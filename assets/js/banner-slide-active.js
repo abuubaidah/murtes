@@ -7,7 +7,29 @@ $(document).ready(function(){
         dots: false,
         items: 1,
         autoplay: true,
-        autoplayTimeout: 4000
+        autoplayTimeout: 4000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            320: {
+                items: 1,
+                autoplay: false,
+                touchDrag: false
+            },
+            768: {
+                items: 1
+            },
+            960: {
+                items: 1
+            },
+            1200: {
+                items: 1
+            },
+            1920: {
+                items: 1
+            }
+        }
     });
 
     jQuery('#banner-content-slider-1').on('translate.owl.carousel', function () {
