@@ -11,11 +11,8 @@
     });
 
 
-    
-
-
     //=======================================
-    //   testimonial carousel
+    //   project slider
     //========================================
     $(document).ready(function(){
         var projectSlider = $('.project-slider');
@@ -24,7 +21,27 @@
             margin: 20,
             nav: false,
             items: 2,
-            smartSpeed: 1500
+            smartSpeed: 1500,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                320: {
+                    items: 1
+                },
+                768: {
+                    items: 1
+                },
+                960: {
+                    items: 1
+                },
+                1200: {
+                    items: 1
+                },
+                1920: {
+                    items: 1
+                }
+            }
         });
         
         // Custom Button
@@ -38,7 +55,7 @@
     });
 
     //=======================================
-    //   testimonial carousel
+    //   project-2-slider slider
     //========================================
     $(document).ready(function(){
         var projectSlider = $('.project-2-slider');
@@ -157,9 +174,9 @@
                 fixed_top_2.addClass("animated fadeInDown fixed-header");
                 fixed_top_3.addClass("animated fadeInDown fixed-header");
                 if ($(window).width() < 960) {
-                    $('.header').removeClass('fixed-header');
-                    $('.header2').removeClass('fixed-header');
-                    $('.header-3').removeClass('fixed-header');
+                    $('.header').removeClass('fixed-header animated fadeInDown');
+                    $('.header2').removeClass('fixed-header animated fadeInDown');
+                    $('.header-3').removeClass('fixed-header animated fadeInDown');
                 }
             }
             else{
