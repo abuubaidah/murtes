@@ -86,7 +86,30 @@
             navText: ['<i class="fas fa-long-arrow-alt-left"></i>', '<i class="fas fa-long-arrow-alt-right"></i>'], 
             items: 3,
             autoplay: true,
-            autoplayTimeout: 4000
+            autoplayTimeout: 4000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                320: {
+                    items: 1
+                },
+                576: {
+                    items: 1
+                },
+                768: {
+                    items: 2
+                },
+                960: {
+                    items: 3
+                },
+                1200: {
+                    items: 3
+                },
+                1920: {
+                    items: 3
+                }
+            }
         });
 
         $('.owl-item.active').eq(1).addClass("target");
@@ -117,7 +140,30 @@
             dots: true,
             items: 3,
             autoplay: true,
-            autoplayTimeout: 4000
+            autoplayTimeout: 4000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                320: {
+                    items: 1
+                },
+                576: {
+                    items: 1
+                },
+                768: {
+                    items: 2
+                },
+                960: {
+                    items: 3
+                },
+                1200: {
+                    items: 3
+                },
+                1920: {
+                    items: 3
+                }
+            }
         });
 
     });
