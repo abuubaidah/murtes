@@ -1,5 +1,19 @@
-@media only screen and (min-width: 992px) and (max-width: 1222px) {
-    
+@media only screen and (min-width: 1200px) and (max-width: 1781px) {
+    /* support */
+    .header .support-area {
+        display: none;
+    }
+    .header .container-murtes .row:first-child .col-xl-5 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .header .mainmenu .navbar .navbar-nav .nav-item .nav-link {
+        padding: 40px 0 39px;
+        margin: 0 25px;
+    }
+    .header.fixed-header .nav-link {
+        margin-bottom: 0 !important;
+    }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     /* header */
@@ -67,6 +81,62 @@
     }
     .choosing-reason .part-reasons .single-feature {
         padding: 30px 15px;
+    }
+    .choosing-reason .part-text {
+        text-align: center;
+    }
+    .choosing-reason .part-text h6 {
+        max-width: none;
+    }
+    .choosing-reason .part-text p {
+        display: none;
+    }
+
+    /* service */
+    .service .single-servcie .service-title {
+        font-size: 24px;
+    }
+    
+    /* video */
+    .video .part-text h2 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    /* project */
+    .project .part-project {
+        margin-bottom: 30px;
+    }
+
+    /* team */
+    .team .all-member .single-member .part-text .data-info span.name {
+        font-size: 22px;
+    }
+
+    /* support */
+    .support {
+        padding: 120px 0;
+    }
+    .support .part-text .support-guide {
+        display: none;
+    }
+    .support .part-text h2 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .support .part-text span.phone-number {
+        font-size: 36px;
+    }
+    .support .part-img .shape-1, .support .part-img .shape-2 {
+        display: none;
+    }
+    .support .part-img img {
+        border-radius: 5px;
+    }
+
+    /* footer */
+    .footer .call-to-action .cta-content .part-text h2 {
+        font-size: 30px;
     }
 }
 
