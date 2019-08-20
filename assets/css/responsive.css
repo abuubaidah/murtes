@@ -2,22 +2,6 @@
     
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-<<<<<<< HEAD
-
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-    
-}
-
-
-@media only screen and (min-width: 480px) and (max-width: 575px) {
-    
-=======
     /* header */
     .header .support-area {
         display: none;
@@ -419,18 +403,11 @@
     .copyright .social-area ul li:last-child a {
         margin-right: 0;
     }
->>>>>>> 73bc38011718b63ad3cb2b89fc8a0e70dbb0e15e
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     /* page: index-1 */
 
-<<<<<<< HEAD
-@media only screen and (min-width: 320px) and (max-width: 479px) {
-    /* page: index-1 */
-
-=======
->>>>>>> 73bc38011718b63ad3cb2b89fc8a0e70dbb0e15e
     /* all-shape */
     .shape-one, .shape-two {
         display: none!important;
@@ -482,8 +459,6 @@
     }
     .header .mainmenu .navbar .navbar-nav .nav-item:last-child .nav-link {
         margin-bottom: 15px;
-<<<<<<< HEAD
-=======
     }
 
     /* banner */
@@ -501,7 +476,6 @@
     }
     .banner .banner-content h1 br {
         display: none;
->>>>>>> 73bc38011718b63ad3cb2b89fc8a0e70dbb0e15e
     }
     .banner .banner-content p {
         font-size: 16px;
@@ -518,146 +492,6 @@
         display: inline-grid;
     }
 
-<<<<<<< HEAD
-    /* banner */
-    .banner .banner-content {
-        padding: 80px 0;
-        margin: 0;
-    }
-    .banner .banner-video {
-        display: none;
-    }
-    .banner .banner-content h1 {
-        font-size: 30px;
-        line-height: 40px;
-    }
-    .banner .banner-content p {
-        font-size: 16px;
-        line-height: 24px;
-    }
-    .banner .banner-content h1 span.special {
-        padding: 0;
-        font-size: inherit;
-        line-height: inherit;
-    }
-    .banner .banner-content a.banner-button {
-        display: inline-grid;
-    }
-
-    /* section-title */
-    .section-title {
-        margin-bottom: 52px;
-    }
-    .section-title h2 {
-        font-size: 26px;
-        line-height: 32px;
-        margin-top: -5px;
-    }
-    .section-title p {
-        font-size: 16px;
-        line-height: 26px;
-    }
-
-    /* about */
-    .about {
-        padding: 80px 0;
-    }
-    .about .part-text h3 {
-        font-size: 22px;
-        line-height: 28px;
-        margin-bottom: 20px;
-    }
-    .about .part-text.left {
-        padding: 0;
-    }
-    .about .part-text p.quote {
-        font-size: 16px;
-        line-height: 24px;
-    }
-    .about .part-img {
-        transform: none;
-        margin: 0 0 30px;
-    }
-    .about .part-text.right {
-        padding-left: 0;
-    }
-
-    /* choosing reason */
-    .choosing-reason {
-        padding: 80px 0;
-    }
-    .choosing-reason .part-text h2 {
-        font-size: 24px;
-        font-weight: 800;
-        line-height: 30px;
-        margin-top: -5px;
-    }
-    .choosing-reason .part-text h2 .special {
-        font-family: "Montserrat", sans-serif;
-        font-weight: 900;
-        font-style: inherit;
-    }
-    .choosing-reason .part-text h6 {
-        font-size: 18px;
-        line-height: 28px;
-    }
-    .choosing-reason .part-reasons {
-        margin: 0;
-        margin-top: 40px;
-    }
-    .choosing-reason .part-reasons .single-feature h3 {
-        font-size: 22px;
-        line-height: 30px;
-    }
-
-    /* statics */
-    .statics {
-        padding: 80px 0 50px;
-    }
-    .statics .single-statics .bg-icon {
-        display: none;
-    }
-    .statics .single-statics span.number {
-        font-size: 44px;
-        font-weight: 800;
-        margin-bottom: 3px;
-        margin-top: -18px;
-    }
-    .statics .single-statics {
-        margin-bottom: 30px;
-    }
-
-    /* service */
-    .service {
-        padding-bottom: 80px;
-    }
-    .service .single-servcie .service-title {
-        font-size: 22px;
-        line-height: 30px;
-    }
-    .service .section-title {
-        margin-bottom: 50px;
-    }
-
-    /* video */
-    .video {
-        padding-bottom: 80px;
-    }
-    .video .part-text {
-        text-align: left;
-    }
-    .video .part-text h2 {
-        font-size: 24px;
-        line-height: 32px;
-    }
-    .video .part-video {
-        margin-top: 40px;
-    }
-    .video .part-video .play-button {
-        width: 50px;
-        height: 50px;
-        line-height: 50px;
-=======
     /* section-title */
     .section-title {
         margin-bottom: 52px;
@@ -913,101 +747,9 @@
     }
     .copyright .social-area ul li:last-child a {
         margin-right: 0;
->>>>>>> 73bc38011718b63ad3cb2b89fc8a0e70dbb0e15e
     }
 }
 
-<<<<<<< HEAD
-    /* project */
-    .project {
-        padding: 80px 0;
-    }
-    .project .part-project {
-        padding-right: 0;
-        margin-bottom: 40px;
-    }
-    .project .part-project .single-project .part-img .content-on-img h4 {
-        font-size: 22px;
-        line-height: 28px;
-    }
-    .project .part-project .single-project .part-img .content-on-img {
-        padding: 40px 40px 33px;
-    }
-    .project .part-text h3 {
-        font-size: 24px;
-        line-height: 34px;
-    }
-    .project .part-text h6 {
-        font-size: 18px;
-        line-height: 28px;
-    }
-    .project .part-text {
-        padding-left: 0;
-    }
-    .project .part-text .project-slider-button {
-        display: none;
-    }
-    .project .part-text P {
-        margin: 0;
-    }
-
-    /* team */
-    .team {
-        padding: 80px 0 50px;
-    }
-    .team .all-member .shape.top-shape, .team .all-member .shape.bottom-shape {
-        display: none;
-    }
-    .team .all-member .single-member .part-text .data-info span.name {
-        font-size: 20px;
-    }
-    .team .all-member .single-member .part-text .play-button a {
-        width: 50px;
-        height: 50px;
-        line-height: 50px;
-    }
-    .team .all-member .single-member {
-        margin-bottom: 30px;
-    }
-
-    /* support */
-    .support {
-        padding: 80px 0 80px;
-    }
-    .support .part-img .shape-1, .support .part-img .shape-2 {
-        display: none;
-    }
-    .support .part-img {
-        margin-bottom: 40px;
-    }
-    .support .part-img img {
-        border-radius: 0;
-    }
-    .support .part-text h2 {
-        font-size: 24px;
-        line-height: 34px;
-        margin-top: -6px;
-    }
-    .support .part-text p {
-        font-size: 16px;
-        line-height: 26px;
-    }
-    .support .part-text span.phone-number {
-        font-size: 28px;
-    }
-    .support .part-text .support-guide {
-        display: none;
-    }
-
-    /* blog */
-    .blog {
-        padding: 80px 0 50px;
-    }
-    .blog .single-blog {
-        margin-bottom: 30px;
-    }
-
-=======
 @media only screen and (min-width: 320px) and (max-width: 575px) {
     /* page: index-1 */
 
@@ -1293,13 +1035,10 @@
         margin-bottom: 30px;
     }
 
->>>>>>> 73bc38011718b63ad3cb2b89fc8a0e70dbb0e15e
     /* call to action */
     .footer .call-to-action {
         display: none;
     }
-<<<<<<< HEAD
-=======
 
     /* footer */
     .footer {
@@ -1323,5 +1062,4 @@
     .copyright .social-area ul li:last-child a {
         margin-right: 0;
     }
->>>>>>> 73bc38011718b63ad3cb2b89fc8a0e70dbb0e15e
 }
