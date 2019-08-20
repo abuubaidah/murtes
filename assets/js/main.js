@@ -29,17 +29,20 @@
                 320: {
                     items: 1
                 },
+                575: {
+                    items: 2
+                },
                 768: {
-                    items: 1
+                    items: 2
                 },
                 960: {
-                    items: 1
+                    items: 2
                 },
                 1200: {
-                    items: 1
+                    items: 2
                 },
                 1920: {
-                    items: 1
+                    items: 2
                 }
             }
         });
