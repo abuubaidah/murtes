@@ -1,6 +1,8 @@
 (function ($) {
     "use strict";
 
+    
+
     //======================================
     //=========== aos activate =============
     //======================================
@@ -300,7 +302,7 @@
 
 
     //======================================
-    //========== magnificPopup video ============
+    //========== magnificPopup video =======
     //======================================
     $('.mfp-iframe').magnificPopup({
         type: 'video'
@@ -314,6 +316,20 @@
             scrollTop: 0
         }, 3000);
     });
+
+    jQuery(window).load(function() {
+
+        var $filterizr = $('.filterizr__elements');
+        if($filterizr.length) {
+         var $filterizrControls = $('.filterizr__controls');
+         $filterizr.filterizr();
+         $filterizrControls.children('li').click(function() {
+           $filterizrControls.find('li.active').removeClass('active');
+           $(this).addClass('active');
+         });
+        }
+   
+   });
     
 }(jQuery));	
 
