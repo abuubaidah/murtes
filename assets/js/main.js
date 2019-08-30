@@ -78,8 +78,11 @@
                 320: {
                     items: 1
                 },
-                576: {
+                480: {
                     items: 1
+                },
+                576: {
+                    items: 2
                 },
                 768: {
                     items: 2
@@ -275,21 +278,7 @@
         $(".side-menubar").removeClass("opened");
     });
 
-    
-
-    // jQuery("#animation-slide").on("translate.owl.carousel", function () {
-    //     jQuery(this).find(".owl-item .slide-text > *").removeClass("fadeInUp animated").css("opacity","0");
-    //     jQuery(this).find(".owl-item .part-img").removeClass("fadeInRight animated").css("opacity","0");
-    // });          
-    // jQuery("#animation-slide").on("translated.owl.carousel", function () {
-    //     jQuery(this).find(".owl-item.active .slide-text > *").addClass("fadeInUp animated").css("opacity","1");
-    //     jQuery(this).find(".owl-item.active .part-img").addClass("fadeInRight animated").css("opacity","1");
-    // });
    
-
-    
-
-
 
     $(window).on('load', function () {
         //======================================

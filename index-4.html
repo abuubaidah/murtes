@@ -32,8 +32,11 @@
 
         <!-- preloader begin -->
         <div class="preloader">
-            <div class="loader">
-                <img src="assets/img/svg/preloader.gif" alt="">
+            <div id="circle_square">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
         <!-- preloader end -->
@@ -43,14 +46,23 @@
             <div class="container this-container">
                 <div class="row">
                     
-                    <div class="col-xl-2 col-lg-2 d-xl-flex d-lg-flex d-block align-items-center">
-                        <div class="logo">
-                            <a href="index-4.html">
-                                <img src="assets/img/logo-2.png" alt="">
-                            </a>
+                    <div class="col-xl-2 col-lg-3 d-xl-flex d-lg-flex d-block align-items-center">
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-7 d-xl-block d-lg-block d-flex align-items-center">
+                                <div class="logo">
+                                    <a href="index-4.html">
+                                        <img src="assets/img/logo-2.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-5 d-xl-none d-lg-none d-block">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <i class="fas fa-bars"></i>
+                                </button>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-xl-7 col-lg-7">
+                    <div class="col-xl-7 col-lg-9">
                         <div class="mainmenu">
                             <nav class="navbar navbar-expand-lg">
 
@@ -60,30 +72,54 @@
                                 
                                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul class="navbar-nav ml-auto">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    Home
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                            <a class="dropdown-item" href="index.html">Home One</a>
+                                            <a class="dropdown-item" href="index-2.html">Home Two</a>
+                                            <a class="dropdown-item" href="index-3.html">Home Three</a>
+                                            <a class="dropdown-item" href="index-4.html">Home Four</a>
+                                            <a class="dropdown-item" href="index-5.html">Home Five</a>
+                                            </div>
+                                        </li>
                                         <li class="nav-item active">
-                                            <a class="nav-link" href="#">Home</a>
+                                            <a class="nav-link" href="about.html">About</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">About</a>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    Service
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                                            <a class="dropdown-item" href="service.html">Service</a>
+                                            <a class="dropdown-item" href="service-details.html">Service Details</a>
+                                            </div>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Services</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Pages</a>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    Pages
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                                            <a class="dropdown-item" href="case.html">Case</a>
+                                            <a class="dropdown-item" href="case-details.html">Case Details</a>
+                                            <a class="dropdown-item" href="faq.html">Faq</a>
+                                            <a class="dropdown-item" href="price-details.html">Price Details</a>
+                                            <a class="dropdown-item" href="team.html">Team</a>
+                                            <a class="dropdown-item" href="testimonial.html">Testimonial</a>
+                                            </div>
                                         </li>
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                     Blog
                                             </a>
                                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="#">Action</a>
-                                            <a class="dropdown-item" href="#">Another action</a>
-                                            <a class="dropdown-item" href="#">Something else here</a>
+                                            <a class="dropdown-item" href="blog.html">Blog</a>
+                                            <a class="dropdown-item" href="blog-details.html">Blog Details</a>
                                             </div>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Contact</a>
+                                            <a class="nav-link" href="contact.html">Contact</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -113,8 +149,8 @@
         <!-- banner begin -->
         <div class="banner-4">
             <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-xl-5 col-lg-5 d-xl-flex d-lg-flex d-block align-items-center">
+                <div class="row justify-content-xl-between justify-content-lg-center justify-content-center">
+                    <div class="col-xl-5 col-lg-9 col-md-8 d-xl-flex d-lg-flex d-block align-items-center">
                         <div class="banner-content">
                             <h1><span class="special">Dedicated</span> IT
                                 solution and
@@ -187,10 +223,10 @@
                     <div class="col-xl-6 col-lg-6">
                         <div class="part-img"></div>
                     </div>
-                    <div class="col-xl-6 col-lg-6">
+                    <div class="col-xl-6 col-lg-12">
                         <div class="part-reasons">
                             <div class="row">
-                                <div class="col-xl-6 col-lg-6" data-aos="zoom-out-up" data-aos-delay="100" data-aos-duration="600">
+                                <div class="col-xl-6 col-lg-6 col-md-6" data-aos="zoom-out-up" data-aos-delay="100" data-aos-duration="600">
                                     <div class="single-reason">
                                         <h3>24/7 customer
                                                 support</h3>
@@ -199,7 +235,7 @@
                                                 who do not know.</p>
                                     </div>
                                 </div>
-                                <div class="col-xl-6 col-lg-6" data-aos="zoom-out-up" data-aos-delay="100" data-aos-duration="600">
+                                <div class="col-xl-6 col-lg-6 col-md-6" data-aos="zoom-out-up" data-aos-delay="100" data-aos-duration="600">
                                     <div class="single-reason">
                                         <h3>Awesome
                                                 team member</h3>
@@ -208,7 +244,7 @@
                                                 who do not know.</p>
                                     </div>
                                 </div>
-                                <div class="col-xl-6 col-lg-6" data-aos="zoom-out-up" data-aos-delay="100" data-aos-duration="600">
+                                <div class="col-xl-6 col-lg-6 col-md-6" data-aos="zoom-out-up" data-aos-delay="100" data-aos-duration="600">
                                     <div class="single-reason">
                                         <h3>Good product
                                                 quality</h3>
@@ -217,7 +253,7 @@
                                                 who do not know.</p>
                                     </div>
                                 </div>
-                                <div class="col-xl-6 col-lg-6" data-aos="zoom-out-up" data-aos-delay="100" data-aos-duration="600">
+                                <div class="col-xl-6 col-lg-6 col-md-6" data-aos="zoom-out-up" data-aos-delay="100" data-aos-duration="600">
                                     <div class="single-reason">
                                         <h3>Many years
                                                 exprience</h3>
@@ -319,8 +355,8 @@
         <!-- about begin -->
         <div class="about-3 about-4">
             <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-xl-6 col-lg-6 d-xl-flex d-lg-flex d-block align-items-center">
+                <div class="row justify-content-xl-between justify-content-lg-between justify-content-center">
+                    <div class="col-xl-6 col-lg-6 col-md-8 d-xl-flex d-lg-flex d-block align-items-center">
                         <div class="part-text">
                             <h2>
                                 <span class="special">
@@ -352,7 +388,7 @@
         <div class="case-4">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-xl-6 col-lg-6">
+                    <div class="col-xl-6 col-lg-8 col-md-8">
                         <div class="section-title-2 text-center">
                             <h2>There are more latest <br/>
                                     case studies done yet.</h2>
@@ -363,7 +399,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-xl-4 col-lg-4" data-aos="murtes-animation" data-aos-offset="300" data-aos-duration="500" data-aos-easing="ease-in-sine">
+                    <div class="col-xl-4 col-lg-4 col-sm-6" data-aos="murtes-animation" data-aos-offset="300" data-aos-duration="500" data-aos-easing="ease-in-sine">
                         <div class="single-case">
                             <div class="part-img">
                                 <img src="assets/img/case-5.jpg" alt="">
@@ -374,7 +410,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4" data-aos="murtes-animation" data-aos-offset="300" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                    <div class="col-xl-4 col-lg-4 col-sm-6" data-aos="murtes-animation" data-aos-offset="300" data-aos-duration="1000" data-aos-easing="ease-in-sine">
                         <div class="single-case">
                             <div class="part-img">
                                 <img src="assets/img/case-6.jpg" alt="">
@@ -385,7 +421,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4" data-aos="murtes-animation" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine">
+                    <div class="col-xl-4 col-lg-4 col-sm-6" data-aos="murtes-animation" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine">
                         <div class="single-case">
                             <div class="part-img">
                                 <img src="assets/img/case-7.jpg" alt="">
@@ -396,7 +432,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4" data-aos="murtes-animation" data-aos-offset="300" data-aos-duration="2000" data-aos-easing="ease-in-sine">
+                    <div class="col-xl-4 col-lg-4 col-sm-6" data-aos="murtes-animation" data-aos-offset="300" data-aos-duration="2000" data-aos-easing="ease-in-sine">
                         <div class="single-case">
                             <div class="part-img">
                                 <img src="assets/img/case-8.jpg" alt="">
@@ -407,7 +443,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4" data-aos="murtes-animation" data-aos-offset="300" data-aos-duration="2500" data-aos-easing="ease-in-sine">
+                    <div class="col-xl-4 col-lg-4 col-sm-6" data-aos="murtes-animation" data-aos-offset="300" data-aos-duration="2500" data-aos-easing="ease-in-sine">
                         <div class="single-case">
                             <div class="part-img">
                                 <img src="assets/img/case-9.jpg" alt="">
@@ -418,7 +454,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4" data-aos="murtes-animation" data-aos-offset="300" data-aos-duration="3000" data-aos-easing="ease-in-sine">
+                    <div class="col-xl-4 col-lg-4 col-sm-6" data-aos="murtes-animation" data-aos-offset="300" data-aos-duration="3000" data-aos-easing="ease-in-sine">
                         <div class="single-case">
                             <div class="part-img">
                                 <img src="assets/img/case-10.jpg" alt="">
@@ -447,7 +483,7 @@
         <div class="testimonial-3">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-xl-6 col-lg-6">
+                    <div class="col-xl-6 col-lg-6 col-md-8">
                         <div class="section-title-2 text-center">
                             <h2>See what our<br/>
                                     customers say<br/>
@@ -461,12 +497,12 @@
                 <div class="testimonial-3-slide owl-carousel owl-theme">
                     <div class="single-testimonial">
                         <div class="row">
-                            <div class="col-xl-4 col-lg-4 offset-xl-1 offset-lg-1 offset-0">
+                            <div class="col-xl-4 col-lg-5 col-md-6 offset-xl-1 offset-lg-0 offset-0">
                                 <div class="part-img">
                                     <img src="assets/img/testi-user-2.jpg" alt="">
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 offset-xl-1 offset-lg-1 offset-0">
+                            <div class="col-xl-6 col-lg-6 col-md-6 offset-xl-1 offset-lg-1 offset-0">
                                 <div class="part-text">
                                     <div class="text-body">
                                         <div class="rate">
@@ -505,12 +541,12 @@
                     </div>
                     <div class="single-testimonial">
                         <div class="row">
-                            <div class="col-xl-4 col-lg-4 offset-xl-1 offset-lg-1 offset-0">
+                            <div class="col-xl-4 col-lg-5 col-md-6 offset-xl-1 offset-lg-0 offset-0">
                                 <div class="part-img">
                                     <img src="assets/img/testi-user-2.jpg" alt="">
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 offset-xl-1 offset-lg-1 offset-0">
+                            <div class="col-xl-6 col-lg-6 col-md-6 offset-xl-1 offset-lg-1 offset-0">
                                 <div class="part-text">
                                     <div class="text-body">
                                         <div class="rate">
@@ -549,12 +585,12 @@
                     </div>
                     <div class="single-testimonial">
                         <div class="row">
-                            <div class="col-xl-4 col-lg-4 offset-xl-1 offset-lg-1 offset-0">
+                            <div class="col-xl-4 col-lg-5 col-md-6 offset-xl-1 offset-lg-0 offset-0">
                                 <div class="part-img">
                                     <img src="assets/img/testi-user-2.jpg" alt="">
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 offset-xl-1 offset-lg-1 offset-0">
+                            <div class="col-xl-6 col-lg-6 col-md-6 offset-xl-1 offset-lg-1 offset-0">
                                 <div class="part-text">
                                     <div class="text-body">
                                         <div class="rate">
@@ -600,7 +636,7 @@
         <div class="price-section">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-xl-6 col-lg-6">
+                    <div class="col-xl-6 col-lg-8 col-md-8">
                         <div class="section-title-2 text-center">
                             <h2>Pricing table<br/>
                                     now choose your<br/>
@@ -612,7 +648,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-xl-4 col-lg-4" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                    <div class="col-xl-4 col-lg-4 col-md-6" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000" data-aos-easing="ease-in-sine">
                         <div class="single-price">
                             <div class="part-head">
                                 <span class="title">Basic User</span>
@@ -630,7 +666,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine">
+                    <div class="col-xl-4 col-lg-4 col-md-6" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine">
                         <div class="single-price active">
                             <div class="part-head">
                                 <span class="title">Basic User</span>
@@ -648,7 +684,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4" data-aos="fade-up" data-aos-offset="300" data-aos-duration="2000" data-aos-easing="ease-in-sine">
+                    <div class="col-xl-4 col-lg-4 col-md-6" data-aos="fade-up" data-aos-offset="300" data-aos-duration="2000" data-aos-easing="ease-in-sine">
                         <div class="single-price">
                             <div class="part-head">
                                 <span class="title">Basic User</span>
@@ -706,7 +742,7 @@
             <div class="container">
                 <div class="row justify-content-between">
                     
-                    <div class="col-xl-4 col-lg-4">
+                    <div class="col-xl-4 col-lg-4 col-md-10">
                         <div class="about-widget">
                             <h3>About murtes</h3>
                             <p>It uses a dictionary of over 200 Latin words
@@ -718,7 +754,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-2 col-lg-2">
+                    <div class="col-xl-2 col-lg-2 col-md-4">
                         <div class="links-widget">
                             <h3>Company</h3>
                             <ul>
@@ -741,7 +777,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-2 col-lg-2">
+                    <div class="col-xl-2 col-lg-2 col-md-4">
                         <div class="links-widget">
                             <h3>Product</h3>
                             <ul>
@@ -764,7 +800,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-2 col-lg-2">
+                    <div class="col-xl-2 col-lg-2 col-md-4">
                         <div class="links-widget">
                             <h3>Help Center</h3>
                             <ul>

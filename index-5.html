@@ -32,8 +32,11 @@
         
         <!-- preloader begin -->
         <div class="preloader">
-            <div class="loader">
-                <img src="assets/img/svg/preloader.gif" alt="">
+            <div id="circle_square">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
         <!-- preloader end -->
@@ -42,47 +45,78 @@
         <div class="header-5">
             <div class="container this-container">
                 <div class="row">
-                    <div class="col-xl-2 col-lg-2 d-xl-flex d-lg-flex d-block align-items-center">
-                        <div class="logo">
-                            <a href="index-3.html"><img src="assets/img/logo.png" alt=""></a>
+                    <div class="col-xl-2 col-lg-3 d-xl-flex d-lg-flex d-block align-items-center">
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-7 d-xl-block d-lg-block d-flex align-items-center">
+                                <div class="logo">
+                                    <a href="index-5.html">
+                                        <img src="assets/img/logo.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-5 d-xl-none d-lg-none d-block">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <i class="fas fa-bars"></i>
+                                </button>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 col-lg-6">
+                    <div class="col-xl-6 col-lg-9">
                         <div class="mainmenu">
                             <nav class="navbar navbar-expand-lg">
-
-                                <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button> -->
                                 
                                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                    <ul class="navbar-nav ml-auto">
-                                        <li class="nav-item active">
-                                            <a class="nav-link" href="#">Home</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">About</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Services</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Pages</a>
-                                        </li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                    Blog
-                                            </a>
-                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="#">Action</a>
-                                            <a class="dropdown-item" href="#">Another action</a>
-                                            <a class="dropdown-item" href="#">Something else here</a>
-                                            </div>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Contact</a>
-                                        </li>
-                                    </ul>
+                                        <ul class="navbar-nav ml-auto">
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Home
+                                                </a>
+                                                <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                                <a class="dropdown-item" href="index.html">Home One</a>
+                                                <a class="dropdown-item" href="index-2.html">Home Two</a>
+                                                <a class="dropdown-item" href="index-3.html">Home Three</a>
+                                                <a class="dropdown-item" href="index-4.html">Home Four</a>
+                                                <a class="dropdown-item" href="index-5.html">Home Five</a>
+                                                </div>
+                                            </li>
+                                            <li class="nav-item active">
+                                                <a class="nav-link" href="about.html">About</a>
+                                            </li>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Service
+                                                </a>
+                                                <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                                                <a class="dropdown-item" href="service.html">Service</a>
+                                                <a class="dropdown-item" href="service-details.html">Service Details</a>
+                                                </div>
+                                            </li>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Pages
+                                                </a>
+                                                <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                                                <a class="dropdown-item" href="case.html">Case</a>
+                                                <a class="dropdown-item" href="case-details.html">Case Details</a>
+                                                <a class="dropdown-item" href="faq.html">Faq</a>
+                                                <a class="dropdown-item" href="price-details.html">Price Details</a>
+                                                <a class="dropdown-item" href="team.html">Team</a>
+                                                <a class="dropdown-item" href="testimonial.html">Testimonial</a>
+                                                </div>
+                                            </li>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Blog
+                                                </a>
+                                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="blog.html">Blog</a>
+                                                <a class="dropdown-item" href="blog-details.html">Blog Details</a>
+                                                </div>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="contact.html">Contact</a>
+                                            </li>
+                                        </ul>
                                 </div>
                             </nav>
                         </div>
@@ -113,8 +147,8 @@
                 <img src="assets/img/home-circle.png" alt="">
             </div>
             <div class="container">
-                <div class="row justify-content-end">
-                    <div class="col-xl-5 col-lg-5">
+                <div class="row justify-content-xl-end justify-content-lg-center  justify-content-center">
+                    <div class="col-xl-5 col-lg-8 col-md-8">
                         <div class="banner-content">
                             <h1>Custom IT
                             Solutions for
@@ -135,8 +169,8 @@
         <!-- about begin -->
         <div class="about-5">
             <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-xl-6 col-lg-6">
+                <div class="row justify-content-xl-between justify-content-lg-between justify-content-center">
+                    <div class="col-xl-6 col-lg-10 col-md-10">
                         <div class="part-text">
                             <h2>
                                 <span class="special">
@@ -278,7 +312,7 @@
         <div class="team-5">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-xl-6 col-lg-6">
+                    <div class="col-xl-6 col-lg-8 col-md-8">
                         <div class="section-title-2 text-center">
                             <h2>Meet our awesome
                                     team members</h2>
@@ -288,7 +322,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xl-3 col-lg-3" data-aos="murtes-animation" data-aos-offset="300" data-aos-duration="500" data-aos-easing="ease-in-sine">
+                    <div class="col-xl-3 col-lg-3 col-sm-6" data-aos="murtes-animation" data-aos-offset="300" data-aos-duration="500" data-aos-easing="ease-in-sine">
                         <div class="single-member">
                             <div class="part-img">
                                 <img src="assets/img/team-member-4.jpg" alt="">
@@ -312,7 +346,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3" data-aos="murtes-animation" data-aos-offset="300" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                    <div class="col-xl-3 col-lg-3 col-sm-6" data-aos="murtes-animation" data-aos-offset="300" data-aos-duration="1000" data-aos-easing="ease-in-sine">
                         <div class="single-member">
                             <div class="part-img">
                                 <img src="assets/img/team-member-5.jpg" alt="">
@@ -336,7 +370,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3" data-aos="murtes-animation" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine">
+                    <div class="col-xl-3 col-lg-3 col-sm-6" data-aos="murtes-animation" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine">
                         <div class="single-member">
                             <div class="part-img">
                                 <img src="assets/img/team-member-6.jpg" alt="">
@@ -360,7 +394,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3" data-aos="murtes-animation" data-aos-offset="300" data-aos-duration="2000" data-aos-easing="ease-in-sine">
+                    <div class="col-xl-3 col-lg-3 col-sm-6" data-aos="murtes-animation" data-aos-offset="300" data-aos-duration="2000" data-aos-easing="ease-in-sine">
                         <div class="single-member">
                             <div class="part-img">
                                 <img src="assets/img/team-member-10.jpg" alt="">
@@ -431,7 +465,7 @@
         <div class="project project-3">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-xl-6 col-lg-6">
+                    <div class="col-xl-6 col-lg-10 col-md-8">
                         <div class="section-title-2 text-center">
                             <span class="subtitle">OUR PORTFOLIO</span>
                             <h2>We do awesome work
@@ -498,11 +532,11 @@
             <div class="container">
                 <div class="this-section-title">
                     <div class="row justify-content-between">
-                        <div class="col-xl-6 col-lg-6">
+                        <div class="col-xl-6 col-lg-7 col-md-8">
                             <h2>What our customers say
                                     about us.</h2>
                         </div>
-                        <div class="col-xl-5 col-lg-5 d-xl-flex d-lg-flex d-block align-items-center">
+                        <div class="col-xl-5 col-lg-5 col-md-8 d-xl-flex d-lg-flex d-block align-items-center">
                             <p>All the Lorem Ipsum generators on the Internet tend to
                                     predefined chunks as necessary, making this the first true.</p>
                         </div>
@@ -680,7 +714,7 @@
         <div class="blog blog-3">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-xl-6 col-lg-6">
+                    <div class="col-xl-6 col-lg-10 col-md-8">
                         <div class="section-title-2 text-center">
                             <h2>Read our article<br/>
                                     tips and news</h2>
@@ -690,7 +724,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xl-4 col-lg-4" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                    <div class="col-xl-4 col-lg-4 col-md-6" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000" data-aos-easing="ease-in-sine">
                         <div class="single-blog">
                             <div class="part-img">
                                 <img src="assets/img/blog-1.jpg" alt="">
@@ -714,7 +748,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine">
+                    <div class="col-xl-4 col-lg-4 col-md-6" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1500" data-aos-easing="ease-in-sine">
                         <div class="single-blog">
                             <div class="part-img">
                                 <img src="assets/img/blog-2.jpg" alt="">
@@ -738,7 +772,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4" data-aos="fade-up" data-aos-offset="300" data-aos-duration="2000" data-aos-easing="ease-in-sine">
+                    <div class="col-xl-4 col-lg-4 col-md-6" data-aos="fade-up" data-aos-offset="300" data-aos-duration="2000" data-aos-easing="ease-in-sine">
                         <div class="small-contact">
                             <h3>Have any project
                                 in your mind?</h3>

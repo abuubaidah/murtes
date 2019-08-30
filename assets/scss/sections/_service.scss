@@ -352,7 +352,7 @@
         }
     }
     .single-servcie {
-        display: flex;
+        display: block;
         &:after {
             position: absolute;
             content: '';

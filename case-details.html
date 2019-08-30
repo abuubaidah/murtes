@@ -27,13 +27,18 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <!-- responsive -->
         <link rel="stylesheet" href="assets/css/responsive.css">
+        <!-- inner pages responsive css -->
+        <link rel="stylesheet" href="assets/css/inner-pages-responsive.css">
     </head>
     <body>
 
         <!-- preloader begin -->
         <div class="preloader">
-            <div class="loader">
-                <img src="assets/img/svg/preloader.gif" alt="">
+            <div id="circle_square">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
         <!-- preloader end -->
@@ -67,33 +72,57 @@
                                 </button> -->
                                 
                                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                    <ul class="navbar-nav ml-auto">
-                                        <li class="nav-item active">
-                                            <a class="nav-link" href="#">Home</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">About</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Services</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Pages</a>
-                                        </li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                    Blog
-                                            </a>
-                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="#">Action</a>
-                                            <a class="dropdown-item" href="#">Another action</a>
-                                            <a class="dropdown-item" href="#">Something else here</a>
-                                            </div>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Contact</a>
-                                        </li>
-                                    </ul>
+                                        <ul class="navbar-nav ml-auto">
+                                                <li class="nav-item dropdown">
+                                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                            Home
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                                    <a class="dropdown-item" href="index.html">Home One</a>
+                                                    <a class="dropdown-item" href="index-2.html">Home Two</a>
+                                                    <a class="dropdown-item" href="index-3.html">Home Three</a>
+                                                    <a class="dropdown-item" href="index-4.html">Home Four</a>
+                                                    <a class="dropdown-item" href="index-5.html">Home Five</a>
+                                                    </div>
+                                                </li>
+                                                <li class="nav-item active">
+                                                    <a class="nav-link" href="about.html">About</a>
+                                                </li>
+                                                <li class="nav-item dropdown">
+                                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                            Service
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                                                    <a class="dropdown-item" href="service.html">Service</a>
+                                                    <a class="dropdown-item" href="service-details.html">Service Details</a>
+                                                    </div>
+                                                </li>
+                                                <li class="nav-item dropdown">
+                                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                            Pages
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                                                    <a class="dropdown-item" href="case.html">Case</a>
+                                                    <a class="dropdown-item" href="case-details.html">Case Details</a>
+                                                    <a class="dropdown-item" href="faq.html">Faq</a>
+                                                    <a class="dropdown-item" href="price-details.html">Price Details</a>
+                                                    <a class="dropdown-item" href="team.html">Team</a>
+                                                    <a class="dropdown-item" href="testimonial.html">Testimonial</a>
+                                                    </div>
+                                                </li>
+                                                <li class="nav-item dropdown">
+                                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                            Blog
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                    <a class="dropdown-item" href="blog.html">Blog</a>
+                                                    <a class="dropdown-item" href="blog-details.html">Blog Details</a>
+                                                    </div>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="contact.html">Contact</a>
+                                                </li>
+                                            </ul>
                                 </div>
                             </nav>
                         </div>
@@ -142,7 +171,7 @@
                 <div class="col-xl-9 col-lg-9">
                     <div class="case-info">
                         <div class="row">
-                            <div class="col-xl-4 col-lg-4">
+                            <div class="col-xl-4 col-lg-4 col-md-4">
                                 <div class="single-info">
                                     <div class="info-content">
                                         <div class="title"><span class="icon"><i class="fas fa-user"></i></span>Clients</div>
@@ -150,7 +179,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-4 col-lg-4">
+                            <div class="col-xl-4 col-lg-4 col-md-4">
                                 <div class="single-info">
                                     <div class="info-content">
                                         <div class="title"><span class="icon"><i class="fas fa-user"></i></span>Budget</div>
@@ -158,7 +187,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-4 col-lg-4">
+                            <div class="col-xl-4 col-lg-4 col-md-4">
                                 <div class="single-info">
                                     <div class="info-content">
                                         <div class="title"><span class="icon"><i class="fas fa-user"></i></span>Duration</div>
@@ -193,7 +222,7 @@
                                 occaecat cupidatat non proident.</p>
 
                             <div class="row no-gutters">
-                                <div class="col-xl-6 col-lg-6">
+                                <div class="col-xl-6 col-lg-6 col-md-6">
                                     <div class="special-text-box">
                                         <h4>Recommendations</h4>
                                         <p>We help transform the world's most into
@@ -203,7 +232,7 @@
                                             not hide from the future.</p>
                                     </div>
                                 </div>
-                                <div class="col-xl-6 col-lg-6">
+                                <div class="col-xl-6 col-lg-6 col-md-6">
                                     <div class="special-text-box">
                                         <h4>Our solution</h4>
                                         <p>We help transform the world's most into
@@ -266,7 +295,7 @@
             <div class="container">
                 <div class="row justify-content-between">
                     
-                    <div class="col-xl-4 col-lg-4">
+                    <div class="col-xl-4 col-lg-4 col-md-10">
                         <div class="about-widget">
                             <h3>About murtes</h3>
                             <p>It uses a dictionary of over 200 Latin words
@@ -278,7 +307,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-2 col-lg-2">
+                    <div class="col-xl-2 col-lg-2 col-md-4">
                         <div class="links-widget">
                             <h3>Company</h3>
                             <ul>
@@ -301,7 +330,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-2 col-lg-2">
+                    <div class="col-xl-2 col-lg-2 col-md-4">
                         <div class="links-widget">
                             <h3>Product</h3>
                             <ul>
@@ -324,7 +353,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-2 col-lg-2">
+                    <div class="col-xl-2 col-lg-2 col-md-4">
                         <div class="links-widget">
                             <h3>Help Center</h3>
                             <ul>

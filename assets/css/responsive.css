@@ -14,6 +14,12 @@
     .header.fixed-header .nav-link {
         margin-bottom: 0 !important;
     }
+    .header-3 .mainmenu .navbar .navbar-nav .nav-item .nav-link {
+        margin: 0 18px;
+    }
+    .header-2 .bottombar .mainmenu .navbar .navbar-nav .nav-item .nav-link {
+        margin: 0 20px;
+    }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     /* page: index-1 */
@@ -206,6 +212,80 @@
         right: 50px;
     }
 
+    /* index-4  */
+    .header-4 .support-area {
+        display: none;
+    }
+    .header-4 .mainmenu .navbar .navbar-nav .nav-item .nav-link {
+        padding: 30px 25px;
+    }
+    .banner-4 .part-img {
+        display: none;
+    }
+    .banner-4 .banner-content {
+        text-align: center;
+        margin-top: 80px;
+        padding: 120px 0;
+    }
+    .banner-4 .banner-content .banner-button {
+        float: none;
+        display: inline-grid;
+    }
+    .banner-4 .banner-content .play-video {
+        margin-top: 0;
+        margin-left: 20px;
+    }
+    .banner-4 .banner-content h1 {
+        font-size: 55px;
+        line-height: 65px;
+    }
+    .banner-4 .banner-content p {
+        width: 560px;
+        display: inline-block;
+    }
+    .choosing-reason-4 .part-img {
+        display: none;
+    }
+    .service-2 .this-section-title h2 br {
+        display: none;
+    }
+    .service-2.service-4 .owl-item.active.target .single-servcie .left , .service-2.service-4 .single-servcie .left, .service-2 .service-2-slider .owl-nav {
+        display: none;
+    }
+    .about-4 .part-img {
+        display: block;
+    }
+    .section-title-2 h2 br {
+        display: none;
+    }
+
+    /* page: index-5 */
+    .header-5 .support-area {
+        display: none;
+    }
+    .header-5 .mainmenu .navbar .navbar-nav .nav-item .nav-link {
+        padding: 30px 0;
+    }
+    .banner-5 .circle {
+        display: none;
+    }
+    .banner-5 .banner-content {
+        margin-right: 0;
+        padding: 150px 0;
+    }
+    .banner-5 .banner-content h1 {
+        font-size: 55px;
+        line-height: 65px;
+    }
+    .about-5 .part-img {
+        display: none;
+    }
+    .statics-5 {
+        display: none;
+    }
+    .service-2.service-4 .single-servcie {
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -971,6 +1051,241 @@
     .footer.footer-2 {
         padding: 80px 0;
     }
+
+    /* page: index-4 */
+    /* header */
+    .header-4 .support-area {
+        display: none;
+    }
+    .header-4 {
+        background: #f0f8ff;
+    }
+    .header-4 .header-buttons {
+        display: none;
+    }
+    .header-4 .navbar-toggler {
+        width: 45px;
+        height: 45px;
+        color: #72839a;
+        border: 1px solid #72839a;
+        border-radius: 5px;
+        outline: none;
+        padding: 0;
+        font-size: 28px;
+        float: right;
+        margin: 11px 0 12px;
+    }
+    .header-4 .mainmenu .navbar .navbar-nav .nav-item .nav-link {
+        margin: 0;
+        background: #fff;
+        padding: 15px 15px;
+        margin-bottom: 1px;
+    }
+    .header-4 .mainmenu .navbar .navbar-nav .nav-item.dropdown .dropdown-menu {
+        opacity: 1;
+        visibility: visible;
+        margin: 0;
+        background-image: none;
+        display: none;
+    }
+    .header-4 .mainmenu .navbar .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    .header-4 .mainmenu .navbar .navbar-nav .nav-item:last-child .nav-link {
+        margin-bottom: 15px;
+    }
+    .header-4 .mainmenu .navbar .navbar-nav .nav-item .nav-link:before {
+        display: none;
+    }
+
+    /* banner */
+    .banner-4 .banner-content {
+        margin-top: 70px;
+        padding: 80px 0;
+    }
+    .banner-4 .banner-content h1 {
+        font-size: 35px;
+        line-height: 45px;
+        margin-bottom: 15px;
+    }
+    .banner-4 .banner-content p {
+        font-size: 16px;
+        line-height: 26px; 
+    }
+    .banner-4 .banner-content .banner-button {
+        height: 50px;
+        line-height: 50px;
+        float: none;
+    }
+    .banner-4 .banner-content .play-video {
+        display: none;
+    }
+    .banner-4 .part-img {
+        display: none;
+    }
+
+    /* choosing reason */
+    /* .choosing-reason-4 .container {
+        padding: 0 15px!important;
+    } */
+    .choosing-reason-4 {
+        padding-bottom: 0;
+    }
+    .choosing-reason-4 .part-reasons {
+        margin-left: 0;
+        padding: 80px 30px 60px;
+    }
+    .choosing-reason-4 .part-reasons .row .col-xl-6:nth-last-of-type(-n+2) .single-reason {
+        margin-bottom: 20px;
+    }
+    .choosing-reason-4 .part-reasons .single-reason h3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .choosing-reason-4 .part-reasons .single-reason p br {
+        display: none;
+    }
+    .choosing-reason-4 .part-img {
+        display: none;
+    }
+
+    /* service */
+    .service-2 .this-section-title h2 br {
+        display: none;
+    }
+    .service-2 .this-section-title p, .service-2.service-4 .single-servcie .left .number {
+        display: none;
+    }
+    .service-2.service-4 .single-servcie {
+        display: block;
+    }
+    .service-2.service-4 .single-servcie .service-title {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .service-2 .single-servcie .service-content {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .service-2.service-4 {
+        padding-top: 80px;
+    } 
+    .service-2.service-4:after {
+        bottom: 0;
+    }
+
+    /* about */
+    .about-4 .part-img {
+        display: none;
+    }
+
+    /* section title */
+    .section-title-2 h2 br {
+        display: none;
+    }
+
+    /* price */
+    .price-section {
+        padding: 80px 0 50px;
+    }
+    .price-section .single-price {
+        margin-bottom: 30px;
+    }
+    /* page: index-5 */
+    /* header */
+    .header-5 .support-area {
+        display: none;
+    }
+    .header-5 {
+        background: #222222;
+        position: initial;
+        border: none;
+    }
+    .header-5 .navbar-toggler {
+        width: 45px;
+        height: 45px;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        outline: none;
+        padding: 0;
+        font-size: 28px;
+        float: right;
+        margin: 11px 0 12px;
+    }
+    .header-5 .mainmenu .navbar .navbar-nav .nav-item .nav-link {
+        margin: 0;
+        background: #191818;
+        padding: 15px 15px;
+        margin-bottom: 1px;
+    }
+    .header-5 .mainmenu .navbar .navbar-nav .nav-item .nav-link:before {
+        display: none;
+    }
+    .header-5 .mainmenu .navbar .navbar-nav .nav-item.dropdown .dropdown-menu {
+        opacity: 1;
+        visibility: visible;
+        margin: 0;
+        background-image: none;
+        display: none;
+    }
+    .header-5 .mainmenu .navbar .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    .header-5 .mainmenu .navbar .navbar-nav .nav-item:last-child .nav-link {
+        margin-bottom: 15px;
+    }
+    /* banner */
+    .banner-5 .circle {
+        display: none;
+    }
+    .banner-5 .banner-content {
+        margin-right: 0;
+        margin-top: 0;
+        padding: 120px 0;
+        text-align: center;
+    }
+    .banner-5 .banner-content h1 {
+        font-size: 28px;
+        line-height: 34px;
+        margin-bottom: 25px;
+        margin-top: -6px;
+    }
+    .banner-5 .banner-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .banner-5 .banner-content .buttons a.banner-button {
+        height: 50px;
+        line-height: 50px;
+        margin-top: 19px;
+    }
+    /* about */
+    .about-5 {
+        padding: 80px 0;
+    }
+    .about-5 .part-text h2 {
+        font-size: 28px;
+        line-height: 34px; 
+    }
+    .about-5 .part-text h2 span.special {
+        font-size: 28px;
+        line-height: 32px;
+        margin-top: -6px;
+    }
+    .about-5 .part-img {
+        display: none;
+    }
+    .statics.statics-5 {
+        display: none;
+    }
+    /* team */
+    .team-5 {
+        padding: 80px 0 50px;
+    }
+    .team-5 .team-bouttons {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -1734,6 +2049,240 @@
     .footer.footer-2 {
         padding: 80px 0;
     }
+
+    /* page: index-4 */
+    /* header */
+    .header-4 .support-area {
+        display: none;
+    }
+    .header-4 {
+        background: #f0f8ff;
+    }
+    .header-4 .header-buttons {
+        display: none;
+    }
+    .header-4 .navbar-toggler {
+        width: 45px;
+        height: 45px;
+        color: #72839a;
+        border: 1px solid #72839a;
+        border-radius: 5px;
+        outline: none;
+        padding: 0;
+        font-size: 28px;
+        float: right;
+        margin: 11px 0 12px;
+    }
+    .header-4 .mainmenu .navbar .navbar-nav .nav-item .nav-link {
+        margin: 0;
+        background: #fff;
+        padding: 15px 15px;
+        margin-bottom: 1px;
+    }
+    .header-4 .mainmenu .navbar .navbar-nav .nav-item.dropdown .dropdown-menu {
+        opacity: 1;
+        visibility: visible;
+        margin: 0;
+        background-image: none;
+        display: none;
+    }
+    .header-4 .mainmenu .navbar .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    .header-4 .mainmenu .navbar .navbar-nav .nav-item:last-child .nav-link {
+        margin-bottom: 15px;
+    }
+    .header-4 .mainmenu .navbar .navbar-nav .nav-item .nav-link:before {
+        display: none;
+    }
+
+    /* banner */
+    .banner-4 .banner-content {
+        margin-top: 70px;
+        padding: 80px 0;
+    }
+    .banner-4 .banner-content h1 {
+        font-size: 25px;
+        line-height: 38px;
+        margin-bottom: 15px;
+    }
+    .banner-4 .banner-content p {
+        font-size: 16px;
+        line-height: 26px; 
+    }
+    .banner-4 .banner-content .banner-button {
+        height: 50px;
+        line-height: 50px;
+        float: none;
+    }
+    .banner-4 .banner-content .play-video {
+        display: none;
+    }
+    .banner-4 .part-img {
+        display: none;
+    }
+
+    /* choosing reason */
+    /* .choosing-reason-4 .container {
+        padding: 0 15px!important;
+    } */
+    .choosing-reason-4 {
+        padding-bottom: 0;
+    }
+    .choosing-reason-4 .part-reasons {
+        margin-left: 0;
+        padding: 80px 30px 60px;
+    }
+    .choosing-reason-4 .part-reasons .row .col-xl-6:nth-last-of-type(-n+2) .single-reason {
+        margin-bottom: 20px;
+    }
+    .choosing-reason-4 .part-reasons .single-reason h3 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .choosing-reason-4 .part-reasons .single-reason p br {
+        display: none;
+    }
+    .choosing-reason-4 .part-img {
+        display: none;
+    }
+
+    /* service */
+    .service-2 .this-section-title h2 br {
+        display: none;
+    }
+    .service-2 .this-section-title p, .service-2.service-4 .single-servcie .left .number {
+        display: none;
+    }
+    .service-2.service-4 .single-servcie {
+        display: block;
+    }
+    .service-2.service-4 .single-servcie .service-title {
+        font-size: 20px;
+        line-height: 26px;   
+    }
+    .service-2 .single-servcie .service-content {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .service-2.service-4 {
+        padding-top: 80px;
+    } 
+    .service-2.service-4:after {
+        bottom: 0;
+    }
+
+    /* about */
+    .about-4 .part-img {
+        display: none;
+    }
+
+    /* section title */
+    .section-title-2 h2 br {
+        display: none;
+    }
+
+    /* price */
+    .price-section {
+        padding: 80px 0 50px;
+    }
+    .price-section .single-price {
+        margin-bottom: 30px;
+    }
+    /* page: index-5 */
+    /* header */
+    .header-5 .support-area {
+        display: none;
+    }
+    .header-5 {
+        background: #222222;
+        position: initial;
+        border: none;
+    }
+    .header-5 .navbar-toggler {
+        width: 45px;
+        height: 45px;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        outline: none;
+        padding: 0;
+        font-size: 28px;
+        float: right;
+        margin: 11px 0 12px;
+    }
+    .header-5 .mainmenu .navbar .navbar-nav .nav-item .nav-link {
+        margin: 0;
+        background: #191818;
+        padding: 15px 15px;
+        margin-bottom: 1px;
+    }
+    .header-5 .mainmenu .navbar .navbar-nav .nav-item .nav-link:before {
+        display: none;
+    }
+    .header-5 .mainmenu .navbar .navbar-nav .nav-item.dropdown .dropdown-menu {
+        opacity: 1;
+        visibility: visible;
+        margin: 0;
+        background-image: none;
+        display: none;
+    }
+    .header-5 .mainmenu .navbar .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    .header-5 .mainmenu .navbar .navbar-nav .nav-item:last-child .nav-link {
+        margin-bottom: 15px;
+    }
+    /* banner */
+    .banner-5 .circle {
+        display: none;
+    }
+    .banner-5 .banner-content {
+        margin-right: 0;
+        margin-top: 0;
+        padding: 120px 0;
+    }
+    .banner-5 .banner-content h1 {
+        font-size: 28px;
+        line-height: 34px;
+        margin-bottom: 25px;
+        margin-top: -6px;
+    }
+    .banner-5 .banner-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .banner-5 .banner-content .buttons a.banner-button {
+        height: 50px;
+        line-height: 50px;
+        margin-top: 19px;
+    }
+    /* about */
+    .about-5 {
+        padding: 80px 0;
+    }
+    .about-5 .part-text h2 {
+        font-size: 28px;
+        line-height: 34px; 
+    }
+    .about-5 .part-text h2 span.special {
+        font-size: 28px;
+        line-height: 32px;
+        margin-top: -6px;
+    }
+    .about-5 .part-img {
+        display: none;
+    }
+    .statics.statics-5 {
+        display: none;
+    }
+    /* team */
+    .team-5 {
+        padding: 80px 0 50px;
+    }
+    .team-5 .team-bouttons {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 575px) {
@@ -2462,5 +3011,240 @@
     /* footer */
     .footer.footer-2 {
         padding: 80px 0;
+    }
+
+    /* page: index-4 */
+    /* header */
+    .header-4 .support-area {
+        display: none;
+    }
+    .header-4 {
+        background: #f0f8ff;
+    }
+    .header-4 .header-buttons {
+        display: none;
+    }
+    .header-4 .navbar-toggler {
+        width: 45px;
+        height: 45px;
+        color: #72839a;
+        border: 1px solid #72839a;
+        border-radius: 5px;
+        outline: none;
+        padding: 0;
+        font-size: 28px;
+        float: right;
+        margin: 11px 0 12px;
+    }
+    .header-4 .mainmenu .navbar .navbar-nav .nav-item .nav-link {
+        margin: 0;
+        background: #fff;
+        padding: 15px 15px;
+        margin-bottom: 1px;
+    }
+    .header-4 .mainmenu .navbar .navbar-nav .nav-item.dropdown .dropdown-menu {
+        opacity: 1;
+        visibility: visible;
+        margin: 0;
+        background-image: none;
+        display: none;
+    }
+    .header-4 .mainmenu .navbar .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    .header-4 .mainmenu .navbar .navbar-nav .nav-item:last-child .nav-link {
+        margin-bottom: 15px;
+    }
+    .header-4 .mainmenu .navbar .navbar-nav .nav-item .nav-link:before {
+        display: none;
+    }
+
+    /* banner */
+    .banner-4 .banner-content {
+        margin-top: 70px;
+        padding: 80px 0;
+    }
+    .banner-4 .banner-content h1 {
+        font-size: 25px;
+        line-height: 38px;
+        margin-bottom: 15px;
+    }
+    .banner-4 .banner-content p {
+        font-size: 16px;
+        line-height: 26px; 
+    }
+    .banner-4 .banner-content .banner-button {
+        height: 50px;
+        line-height: 50px;
+        float: none;
+    }
+    .banner-4 .banner-content .play-video {
+        display: none;
+    }
+    .banner-4 .part-img {
+        display: none;
+    }
+
+    /* choosing reason */
+    /* .choosing-reason-4 .container {
+        padding: 0 15px!important;
+    } */
+    .choosing-reason-4 {
+        padding-bottom: 0;
+    }
+    .choosing-reason-4 .part-reasons {
+        margin-left: 0;
+        padding: 80px 30px 60px;
+    }
+    .choosing-reason-4 .part-reasons .row .col-xl-6:nth-last-of-type(-n+2) .single-reason {
+        margin-bottom: 20px;
+    }
+    .choosing-reason-4 .part-reasons .single-reason h3 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .choosing-reason-4 .part-reasons .single-reason p br {
+        display: none;
+    }
+    .choosing-reason-4 .part-img {
+        display: none;
+    }
+
+    /* service */
+    .service-2 .this-section-title h2 br {
+        display: none;
+    }
+    .service-2 .this-section-title p, .service-2.service-4 .single-servcie .left .number {
+        display: none;
+    }
+    .service-2.service-4 .single-servcie {
+        display: block;
+    }
+    .service-2.service-4 .single-servcie .service-title {
+        font-size: 20px;
+        line-height: 26px;   
+    }
+    .service-2 .single-servcie .service-content {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .service-2.service-4 {
+        padding-top: 80px;
+    } 
+    .service-2.service-4:after {
+        bottom: 0;
+    }
+
+    /* about */
+    .about-4 .part-img {
+        display: none;
+    }
+
+    /* section title */
+    .section-title-2 h2 br {
+        display: none;
+    }
+
+    /* price */
+    .price-section {
+        padding: 80px 0 50px;
+    }
+    .price-section .single-price {
+        margin-bottom: 30px;
+    }
+
+    /* page: index-5 */
+    /* header */
+    .header-5 .support-area {
+        display: none;
+    }
+    .header-5 {
+        background: #222222;
+        position: initial;
+        border: none;
+    }
+    .header-5 .navbar-toggler {
+        width: 45px;
+        height: 45px;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        outline: none;
+        padding: 0;
+        font-size: 28px;
+        float: right;
+        margin: 11px 0 12px;
+    }
+    .header-5 .mainmenu .navbar .navbar-nav .nav-item .nav-link {
+        margin: 0;
+        background: #191818;
+        padding: 15px 15px;
+        margin-bottom: 1px;
+    }
+    .header-5 .mainmenu .navbar .navbar-nav .nav-item .nav-link:before {
+        display: none;
+    }
+    .header-5 .mainmenu .navbar .navbar-nav .nav-item.dropdown .dropdown-menu {
+        opacity: 1;
+        visibility: visible;
+        margin: 0;
+        background-image: none;
+        display: none;
+    }
+    .header-5 .mainmenu .navbar .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    .header-5 .mainmenu .navbar .navbar-nav .nav-item:last-child .nav-link {
+        margin-bottom: 15px;
+    }
+    /* banner */
+    .banner-5 .circle {
+        display: none;
+    }
+    .banner-5 .banner-content {
+        margin-right: 0;
+        margin-top: 0;
+        padding: 120px 0;
+    }
+    .banner-5 .banner-content h1 {
+        font-size: 28px;
+        line-height: 34px;
+        margin-bottom: 25px;
+        margin-top: -6px;
+    }
+    .banner-5 .banner-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .banner-5 .banner-content .buttons a.banner-button {
+        height: 50px;
+        line-height: 50px;
+        margin-top: 19px;
+    }
+    /* about */
+    .about-5 {
+        padding: 80px 0;
+    }
+    .about-5 .part-text h2 {
+        font-size: 28px;
+        line-height: 34px; 
+    }
+    .about-5 .part-text h2 span.special {
+        font-size: 28px;
+        line-height: 32px;
+        margin-top: -6px;
+    }
+    .about-5 .part-img {
+        display: none;
+    }
+    .statics.statics-5 {
+        display: none;
+    }
+    /* team */
+    .team-5 {
+        padding: 80px 0 50px;
+    }
+    .team-5 .team-bouttons {
+        display: none;
     }
 }
